@@ -12,6 +12,14 @@ body{
     width:500px;
     background:#02A8F3;
     transition: all 1s ease;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    font-size:50px;
+    color: #3B3B3B;
 }
 
 .element-round{

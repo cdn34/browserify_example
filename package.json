@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "watchify app/app.js -o app/build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
   }
 }
