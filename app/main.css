@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background: #3B3B3B;
+}
+
+.element{
+    height:500px;
+    width:500px;
+    background:#02A8F3;
+    transition: all 1s ease;
+}
+
+.element-round{
+    border-radius:50%;
+    background:#00BBD3;
+}
